@@ -1,0 +1,162 @@
+@font-face {
+    font-family: 'ITC Stone Sans Std';
+    src: url('fonts/StoneSansStd-Semibold.eot');
+    src: url('fonts/StoneSansStd-Semibold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/StoneSansStd-Semibold.woff2') format('woff2'),
+        url('fonts/StoneSansStd-Semibold.woff') format('woff'),
+        url('fonts/StoneSansStd-Semibold.ttf') format('truetype'),
+        url('fonts/StoneSansStd-Semibold.svg#StoneSansStd-Semibold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ITC Stone Sans Std';
+    src: url('fonts/StoneSansStd-Medium.eot');
+    src: url('fonts/StoneSansStd-Medium.eot?#iefix') format('embedded-opentype'),
+        url('fonts/StoneSansStd-Medium.woff2') format('woff2'),
+        url('fonts/StoneSansStd-Medium.woff') format('woff'),
+        url('fonts/StoneSansStd-Medium.ttf') format('truetype'),
+        url('fonts/StoneSansStd-Medium.svg#StoneSansStd-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ITC Stone Sans Std';
+    src: url('StoneSansStd-Bold.eot');
+    src: url('fonts/StoneSansStd-Bold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/StoneSansStd-Bold.woff2') format('woff2'),
+        url('fonts/StoneSansStd-Bold.woff') format('woff'),
+        url('fonts/StoneSansStd-Bold.ttf') format('truetype'),
+        url('fonts/StoneSansStd-Bold.svg#StoneSansStd-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+:focus {
+	outline: 0;
+	}
+	html{
+		width: 1920px;
+		height: 1080px;
+		position: absolute;
+		overflow: hidden;
+		}
+body{
+	background-color: #000;
+	background-image: url('../img/bg.png');
+	background-repeat: no-repeat;
+	background-position: left top;
+	width: 1920px;
+	height: 1080px;
+	margin:0px;
+	padding: 0px;
+	}
+.video, .video video{
+	width: 100%;
+	height: 100%;
+}
+.logo{
+	right: 0px;
+	position: absolute;
+	margin-right: 50px;
+	top: 0px;
+	z-index: 3;
+}
+.startbutton{
+	position:absolute;
+	right: 0px;
+	top: 493px;
+	margin-right: 125px;
+}
+.menu{
+	position: absolute;
+	left: 130px;
+	top: 270px;
+	z-index: 1;
+}
+.menufront img{
+	margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+	width: 1010px;
+	height: 1010px;
+}
+.content{
+	position: absolute;
+  top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.content:before{
+	background-image:url('../img/mask_bg.png');
+	content: ' ';
+	width: 1920px;
+	height: 1080px;
+	position: absolute;
+}
+.content img{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	text-align: center;
+	margin-top: 40px;
+	}
+	.close hr{
+		border-bottom: 2px dotted #009ee3;
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px;
+    position: absolute;
+    bottom: 143px;
+    width: 400px;
+    margin-left: auto;
+    left: 0;
+    margin-right: auto;
+    right: 0;
+	}
+	.close img{
+		margin: auto;
+		position: absolute;
+		left: 0; bottom: 60px; right: 0;
+		width: 60px;
+		height: 60px;
+	}
+	.text{
+		width: 500px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 200px;
+	}
+	.text h1{
+		color: #fff;
+		font-family: 'ITC Stone Sans Std', sans-serif;
+		text-transform: uppercase;
+		font-size: 21px;
+		line-height: 29px;
+		font-weight: 600;
+	}
+	.text p{
+		color: #fff;
+		font-family: 'ITC Stone Sans Std', sans-serif;
+		font-size: 21px;
+		line-height: 29px;
+		font-weight: 500;
+	}
+	.text p span{
+		
+		font-weight: 600;
+	}
+	.text ul{
+		padding-inline-start: 16px;
+	}
+	.text li{
+		color: #fff;
+		font-family: 'ITC Stone Sans Std', sans-serif;
+		font-weight: 500;
+		font-size: 21px;
+		line-height: 29px;
+		list-style-image: url('../img/li.svg');
+		padding-left: 15px;
+	}
